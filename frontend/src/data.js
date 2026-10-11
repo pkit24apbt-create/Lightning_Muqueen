@@ -101,24 +101,36 @@ export const tools = [
   { kind: 'VERSIONING', name: 'GitHub' },
 ];
 
+// photo: file inside frontend/public/team/
+// photoPosition: where the person is in the photo (left-right %, top-bottom %)
+// photoZoom: how much to zoom in (1 = no zoom, bigger number = closer)
 export const team = [
   {
     initials: 'AB',
     name: 'Amina Budha',
     role: 'Designer · Team Lead',
     bio: 'Leads the team and designs every interface we ship, from first wireframe to final Figma prototype.',
+    photo: '/team/amina-budha.jpg',
+    photoPosition: '50% 20%',
+    photoZoom: 1,
   },
   {
     initials: 'PR',
     name: 'Parbati Rai',
     role: 'Developer',
     bio: 'Builds the front end in React and the back end in Node.js, with PostgreSQL behind it all.',
+    photo: '/team/parbati-rai.jpg',
+    photoPosition: '50% 50%',
+    photoZoom: 1,
   },
   {
     initials: 'DP',
     name: 'Durga Poudel',
     role: 'Documentation Lead',
     bio: 'Turns client needs into clear requirements, and keeps testing and documentation complete.',
+    photo: '/team/durga-poudel.jpg',
+    photoPosition: '50% 25%',
+    photoZoom: 1.1,
   },
 ];
 
